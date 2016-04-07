@@ -6,7 +6,7 @@ var plugins = require('gulp-load-plugins')();
 var gls = require('gulp-live-server');
 
 var data = require('./resume.json');
-var server = gls.static('dist', 8889);
+var server = gls.static('dist', 9999);
 
 gulp.task('jade', function() {
   gulp.src('./src/layout/index.jade')

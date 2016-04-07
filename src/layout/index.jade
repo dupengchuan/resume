@@ -1,14 +1,7 @@
 extends ./partial/layout
 
 block top
-  section#top
-    div.menu
-      div.toggle
-        div.icon-menu
-      ul.list
-        li: a(href="#information") 个人信息
-        li: a(href="#skill") 掌握技能
-        li: a(href="#experience") 项目经验
-    div.heading
-      div.logo
-        != logo
+  include ./partial/top
+  
+block information
+  include ./partial/information
