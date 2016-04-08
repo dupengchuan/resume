@@ -6,7 +6,7 @@ var plugins = require('gulp-load-plugins')();
 var gls = require('gulp-live-server');
 
 var data = require('./resume.json');
-var server = gls.static('dist', 9999);
+var server = gls.static('dist', 8000);
 
 gulp.task('jade', function() {
   gulp.src('./src/layout/index.jade')
@@ -17,7 +17,7 @@ gulp.task('jade', function() {
 gulp.task('less', function() {
   gulp.src('./src/style/style.less')
     .pipe(less())
-    .pipe(minifyCss())
+    // .pipe(minifyCss())
     .pipe(gulp.dest('./dist/css/'));
 });
 

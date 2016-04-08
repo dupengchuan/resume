@@ -1,5 +1,21 @@
 {
   "resume_title": "resume",
   "ba_id": "9e0cbea7d3319c6c94c71dfb93c151b8",
-  "logo": "Hello World"
+  "logo": "Welcome",
+  "information": {
+    "name": "江岳勋",
+    "position": "前端实习",
+    "location": "广东佛山",
+    "phone": "13202824844",
+    "email": "ahonn95@outlook",
+    "blog": "http://www.ahonn.me",
+    "github": "https://github.com/ahonn"
+  },
+  "education": [{
+    "name": "广东东软学院",
+    "major": "软件工程",
+    "start": "2014",
+    "end": "2018"
+  }],
+
 }
