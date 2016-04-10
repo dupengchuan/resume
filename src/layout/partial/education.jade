@@ -5,4 +5,9 @@ section#education
     ul.edu-list
       each edu in education
         li.edu-item
-          
+          span.name
+            != edu.name
+          span.time
+            != edu.start + " - " + edu.end
+          span.major
+            != edu.major
