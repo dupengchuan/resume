@@ -16,6 +16,36 @@
     "major": "软件工程（本科）",
     "start": "2014",
     "end": "2018"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "HTML / CSS",
+      "description": [
+        "能够编写语义化的 HTML，模块化的 CSS，实现较复杂的布局",
+        "熟悉 Less CSS 预处理器，Jade 模版引擎",
+        "熟悉 Gulp 自动构建工具"
+      ]
+    }, {
+      "summary": "JavaScript",
+      "description": [
+        "熟悉原生 JavaScript ，能脱离 jQuery 等类库编码",
+        "能运用模块化、面向对象的方式编程"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "PHP",
+      "description": [
+        "能够使用 PHP 搭建简单的后端程序与数据库交互，渲染模版等",
+        "了解 CodeIgniter 框架的基本使用"
+      ]
+    }, {
+      "summary": "Python",
+      "description": [
+        "能够编写简单的爬虫，数据处理等脚本"
+      ]
+    }]
   }]
-
 }

@@ -1,0 +1,38 @@
+#skills {
+  .skill {
+    margin: 30px 0px;
+
+    .type {
+      display: block;
+      margin: 10px 0px;
+      color: @theme-color;
+      font-size: 26px;
+      font-family: @theme-serif;
+      text-transform: capitalize;
+    }
+
+    .skill-item {
+      margin-bottom: 20px;
+      .skill-title {
+        display: block;
+        margin: 5px 0px;
+        font-size: 18px;
+
+        &::before {
+          content: "#";
+          color: @theme-color;
+          font-size: 20px;
+        }
+      }
+
+      .desc {
+        margin-bottom: 5px;
+
+        &::before {
+          content: " - ";
+          color: @theme-color;
+        }
+      }
+    }
+  }
+}

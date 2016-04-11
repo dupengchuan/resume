@@ -1,0 +1,14 @@
+section#skills
+  div.content
+    h1.title 技能清单
+    span.subtitle Skills
+    each skill in skills
+      div.skill
+        span.type!= skill.type
+        each item in skill.item
+          div.skill-item
+            span.skill-title 
+              != item.summary
+            each desc in item.description
+              p.desc!= desc
+          

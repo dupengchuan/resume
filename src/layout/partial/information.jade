@@ -5,6 +5,7 @@ section#information
     ul.info-list
       each info, key in information
         li.info-item
+          - var key = key + ': '
           span!= key
           if key == 'email'
             a(href="mailto:#{info}")!= info
