@@ -1,0 +1,16 @@
+section#experience
+  div.content
+    h1.title 项目经验
+    span.subtitle Experience
+    each exp in experience
+      div.experience
+        h2.type!= exp.type
+        each project in exp.item
+          div.project
+            a.link(href="#{project.source}")
+              i.fa.fa-link
+            h2.name
+              != project.name
+            each desc in project.description
+              p.desc!= desc
+    

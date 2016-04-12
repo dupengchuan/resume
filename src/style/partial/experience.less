@@ -1,5 +1,5 @@
-#skills {
-  .skill {
+#experience {
+  .experience {
     margin: 30px 0px;
 
     .type {
@@ -11,19 +11,20 @@
       text-transform: capitalize;
     }
 
-    .skill-item {
+    .project {
       margin-bottom: 20px;
-      .skill-title {
-        display: block;
+
+      .link {
+        display: inline-block;
+        margin-right: 5px;
+        color: @theme-color;
+        font-size: 20px;
+      }
+
+      .name {
+        display: inline-block;
         margin: 5px 0px;
         font-size: 20px;
-
-        &::before {
-          content: "#";
-          margin-right: 5px;
-          color: @theme-color;
-          font-size: 20px;
-        }
       }
 
       .desc {
