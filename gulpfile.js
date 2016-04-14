@@ -5,12 +5,28 @@ var minifyCss = require('gulp-minify-css')
 var plugins = require('gulp-load-plugins')();
 var gls = require('gulp-live-server');
 
-var data = require('./resume.json');
 var server = gls.static('dist', 8000);
+
+function getData() {
+  var resumeData = require('./resume.json');
+  var dataPath = './languages/' + resumeData.languages + '.js';
+  try {
+    var data = require(dataPath);
+  } catch (err) {
+    console.log('------ Languages file not find ------');
+    var data = require('./languages/zh-CN.js');
+  }
+
+
+  for (var item in resumeData) {
+    data[item] = resumeData[item];
+  }
+  return data;
+}
 
 gulp.task('jade', function() {
   gulp.src('./src/layout/index.jade')
-    .pipe(plugins.jade({ data: data}))
+    .pipe(plugins.jade({ data: getData() }))
     .pipe(gulp.dest('./dist/'));
 });
 

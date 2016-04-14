@@ -1,16 +1,14 @@
 section#information
   div.content
-    h1.title 个人信息
-    span.subtitle Information
+    +title('information')
     ul.info-list
       each info, key in information
         li.info-item
-          - var key = key + ': '
-          span!= key
+          - var item =  information_type[key] + ': '
+          span!= item
           if key == 'email'
             a(href="mailto:#{info}")!= info
           else if key == 'blog' || key == 'github'
             a(href="#{info}")!= info
           else 
             != info
-    

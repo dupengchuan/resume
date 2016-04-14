@@ -1,10 +1,9 @@
 section#skills
   div.content
-    h1.title 技能清单
-    span.subtitle Skills
+    +title('skills')
     each skill in skills
       div.skill
-        h2.type!= skill.type
+        h2.type!= skills_type[skill.type]
         each item in skill.item
           div.skill-item
             h3.skill-title

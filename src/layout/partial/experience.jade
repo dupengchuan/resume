@@ -1,10 +1,9 @@
 section#experience
   div.content
-    h1.title 项目经验
-    span.subtitle Experience
+    +title('experience')
     each exp in experience
       div.experience
-        h2.type!= exp.type
+        h2.type!= project_type[exp.type]
         each project in exp.item
           div.project
             a.link(href="#{project.source}")
