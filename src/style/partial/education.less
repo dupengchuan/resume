@@ -1,9 +1,17 @@
 #education {
   .edu-list {
     margin: 30px 0px;
+    list-style: none;
 
     .edu-item {
       margin: 20px 0px;
+
+      &::before {
+        content: '#';
+        margin-right: 5px;
+        font-size: 22px;
+        color: @theme-color;
+      }
 
       .name {
         margin-right: 5px;
@@ -16,9 +24,9 @@
       }
 
       .major {
-        display: block;
-        margin-top: 10px;
-        margin-left: 50px;
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 30px;
       }
     }
   }

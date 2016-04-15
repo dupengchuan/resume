@@ -18,19 +18,19 @@ module.exports = {
   },
   section_names: {
     "information": {
-      "ch": "个人信息",
+      "zh": "个人信息",
       "en": "Information"
     },
     "education": {
-      "ch": "教育经历",
+      "zh": "教育经历",
       "en": "Education"
     },
     "skills": {
-      "ch": "技能清单",
+      "zh": "技能清单",
       "en": "Skills"
     },
     "experience": {
-      "ch": "项目经验",
+      "zh": "项目经验",
       "en": "Experience"
     },
   }

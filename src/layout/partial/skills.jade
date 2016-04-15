@@ -6,8 +6,9 @@ section#skills
         h2.type!= skills_type[skill.type]
         each item in skill.item
           div.skill-item
-            h3.skill-title
-              != item.summary
+            if item.summary != ""
+              h3.skill-title
+                != item.summary
             each desc in item.description
               p.desc!= desc
           

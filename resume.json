@@ -5,7 +5,7 @@
   "logo": "Welcome",
   "information": {
     "name": "江岳勋",
-    "position": "前端实习",
+    "position": "软件开发实习 / 前端实习",
     "location": "广东佛山",
     "phone": "13202824844",
     "email": "ahonn95@outlook",
@@ -24,7 +24,8 @@
       "summary": "HTML / CSS",
       "description": [
         "能够编写语义化的 HTML，模块化的 CSS，实现较复杂的布局",
-        "会使用 Gulp 及 Less CSS 预处理器"
+        "会使用 Gulp 及 Less CSS 预处理器",
+        "阅读过部分 bootstrap 源码"
       ]
     }, {
       "summary": "JavaScript",
@@ -45,6 +46,16 @@
       "summary": "Python",
       "description": [
         "能够编写简单的爬虫，数据处理等脚本"
+      ]
+    }]
+  }, {
+    "type": "other",
+    "item": [{
+      "summary": "",
+      "description": [
+        "1年 Linux 使用经验，熟悉常用命令",
+        "能够使用 Markdown 编写文档，具备良好的技术交流能力",
+        "日常使用 OS X，使用 Git + Atom 进行开发，乐于尝试新事物"
       ]
     }]
   }],
