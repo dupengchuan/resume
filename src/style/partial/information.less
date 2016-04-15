@@ -2,7 +2,7 @@
   .content {
     .info-list {
       list-style: none;
-      margin: 30px 0px;
+      margin: 25px 0px;
 
       .info-item {
         margin: 10px 0px;
@@ -11,7 +11,14 @@
           display: inline-block;
           width: 80px;
           margin-right: 10px;
+          color: @theme-color;
           text-transform: capitalize;
+
+          &.name {
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+          }
         }
 
         a {

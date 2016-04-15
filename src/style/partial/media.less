@@ -29,3 +29,16 @@
     }
   }
 }
+
+
+@media print {
+  section {
+    &:not(#header) {
+      padding: 10px 30px 0px 30px;
+    }
+  }
+
+  #header {
+    display: none;
+  }
+}

@@ -1,7 +1,7 @@
 module.exports = {
   information_type: {
     "name": "姓名",
-    "position": "期望职位",
+    "position": "求职意向",
     "location": "所在地",
     "phone": "手机号码",
     "email": "电子邮箱",

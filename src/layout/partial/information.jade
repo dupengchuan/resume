@@ -6,7 +6,9 @@ section#information
         li.info-item
           - var item =  information_type[key] + ': '
           span!= item
-          if key == 'email'
+          if key == 'name'
+            span.name!= info
+          else if key == 'email'
             a(href="mailto:#{info}")!= info
           else if key == 'blog' || key == 'github'
             a(href="#{info}")!= info
