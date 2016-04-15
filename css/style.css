@@ -1,0 +1,196 @@
+@charset "UTF-8";
+body,
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+section:not(#top) {
+  padding: 100px 150px;
+  text-align: center;
+}
+section:not(#top) .content {
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: left;
+}
+section:not(#top) .content .title {
+  display: inline-block;
+  font-size: 2em;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
+}
+section:not(#top) .content .subtitle {
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+  color: #c05b4d;
+  font-size: 20px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
+  font-variant: small-caps;
+}
+section:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+#top {
+  height: 100%;
+}
+#top .menu {
+  position: fixed;
+  top: 35px;
+  right: 30px;
+  z-index: 10;
+}
+#top .menu:hover .toggle {
+  padding: 9px;
+  border: 1px solid #efefef;
+  border-bottom: 1px solid #fff;
+  z-index: 10;
+}
+#top .menu:hover .list {
+  display: block;
+}
+#top .menu .toggle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+  border-radius: 2px;
+}
+#top .menu .toggle .icon-menu {
+  width: 16px;
+  height: 16px;
+}
+#top .menu .list {
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  padding: 20px 25px;
+  list-style: none;
+  border: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  box-shadow: 0 1px 1px 0 #ddd;
+  background-color: #fff;
+  font-size: 15px;
+}
+#top .menu .list .list-item {
+  display: block;
+  padding: 5px 0px;
+  color: #000;
+  text-decoration: none;
+}
+#top .menu .list .list-item:hover {
+  color: #c05b4d;
+  text-decoration: underline;
+}
+#top .heading {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+#top .heading .logo {
+  font-size: 120px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
+  text-align: center;
+  text-shadow: 3px 4px 3px #c05b4d;
+}
+#information .content .info-list {
+  list-style: none;
+  margin: 30px 0px;
+}
+#information .content .info-list .info-item {
+  margin: 10px 0px;
+}
+#information .content .info-list .info-item span {
+  display: inline-block;
+  width: 80px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+#information .content .info-list .info-item a {
+  color: #000;
+  text-decoration: none;
+}
+#information .content .info-list .info-item a:hover {
+  color: #c05b4d;
+  text-decoration: underline;
+}
+#education .edu-list {
+  margin: 30px 0px;
+}
+#education .edu-list .edu-item {
+  margin: 20px 0px;
+}
+#education .edu-list .edu-item .name {
+  margin-right: 5px;
+  font-size: 20px;
+}
+#education .edu-list .edu-item .time {
+  color: #c05b4d;
+  font-size: 14px;
+}
+#education .edu-list .edu-item .major {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#skills .skill {
+  margin: 30px 0px;
+}
+#skills .skill .type {
+  display: block;
+  margin: 10px 0px;
+  color: #c05b4d;
+  font-size: 26px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
+  text-transform: capitalize;
+}
+#skills .skill .skill-item {
+  margin-bottom: 20px;
+}
+#skills .skill .skill-item .skill-title {
+  display: block;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+#skills .skill .skill-item .skill-title::before {
+  content: "#";
+  margin-right: 5px;
+  color: #c05b4d;
+  font-size: 20px;
+}
+#skills .skill .skill-item .desc {
+  margin-bottom: 5px;
+}
+#experience .experience {
+  margin: 30px 0px;
+}
+#experience .experience .type {
+  display: block;
+  margin: 10px 0px;
+  color: #c05b4d;
+  font-size: 26px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
+  text-transform: capitalize;
+}
+#experience .experience .project {
+  margin-bottom: 20px;
+}
+#experience .experience .project .link {
+  display: inline-block;
+  margin-right: 5px;
+  color: #c05b4d;
+  font-size: 20px;
+}
+#experience .experience .project .name {
+  display: inline-block;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+#experience .experience .project .desc {
+  margin-bottom: 5px;
+}
