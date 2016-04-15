@@ -170,6 +170,7 @@ section:not(:last-child) {
   display: block;
   margin: 5px 0px;
   font-size: 20px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
 }
 #skills .skill-list .skill-item .skill-title::before {
   content: "#";
@@ -205,6 +206,7 @@ section:not(:last-child) {
   display: inline-block;
   margin: 5px 0px;
   font-size: 20px;
+  font-family: 'PT Serif', STZhongsong, 'Microsoft Yahei', serif;
 }
 #experience .experience .project .desc {
   margin-bottom: 5px;
@@ -212,13 +214,17 @@ section:not(:last-child) {
 }
 @media screen and (max-width: 768px) {
   section:not(#header) {
-    padding: 30px;
+    padding: 25px;
+  }
+  #header .menu {
+    top: 15px;
+    right: 15px;
   }
   #header .heading {
-    margin-left: -150px;
+    margin-left: -130px;
   }
   #header .heading .logo {
-    font-size: 75px;
+    font-size: 60px;
   }
   #education .edu-list .edu-item {
     margin-top: 10px;
@@ -227,6 +233,7 @@ section:not(:last-child) {
     display: block;
     margin-top: 10px;
     margin-left: 20px;
+    font-size: 16px;
   }
 }
 @media print {
