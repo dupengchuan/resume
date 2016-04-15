@@ -63,7 +63,7 @@ gulp.task('server', function() {
 });
 
 
-gulp.task('deploy', ['jade', 'less', 'static'], function() {
+gulp.task('d', ['jade', 'less', 'static'], function() {
   return gulp.src('./dist/**/*')
     .pipe(plugins.ghPages());
 });
