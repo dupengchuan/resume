@@ -212,6 +212,16 @@ section:not(:last-child) {
   margin-bottom: 5px;
   line-height: 24px;
 }
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+#footer a {
+  color: #c05b4d;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   section:not(#header) {
     padding: 25px;
