@@ -62,6 +62,15 @@
   "experience": [{
     "type": "personal",
     "item":[{
+      "name": "Resume",
+      "source": "https://github.com/ahonn/resume",
+      "description": [
+        "这份简历的模版",
+        "读取 JSON 中的数据，使用 Jade 模版引擎以及 Less",
+        "使用 Gulp 生成页面，并部署到 Github Pages"
+      ],
+      "stack": ["HTML", "CSS"]
+    }, {
       "name": "Theme-hexo-even",
       "source": "https://github.com/ahonn/hexo-theme-even",
       "description": [
