@@ -5,7 +5,7 @@
   "logo": "Welcome",
   "information": {
     "name": "江岳勋",
-    "position": "软件开发实习 / 前端实习",
+    "position": "前端实习",
     "location": "广东佛山",
     "phone": "13202824844",
     "email": "ahonn95@outlook",
@@ -91,7 +91,7 @@
       "name": "Nada",
       "source": "https://github.com/ahonn/nada",
       "description": [
-        "基于 Python 的 curses 模块编写的多网站命令行音乐播放器",
+        "基于 Python 的 curses 模块编写的落网音乐命令行播放器",
         "使用 requests 模块解析 HTML, 爬取歌曲信息等",
         "使用 threading 模块提供多线程，完成播放及下载功能"
       ],
