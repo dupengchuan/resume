@@ -100,6 +100,34 @@ section:not(:last-child) {
   text-align: center;
   text-shadow: 3px 4px 3px #c05b4d;
 }
+aside {
+  position: fixed;
+  top: 40%;
+  right: 0;
+}
+aside .links {
+  list-style: none;
+}
+aside .links .link-item {
+  padding: 5px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #eee;
+}
+aside .links .link-item a {
+  font-size: 16px;
+  color: #c05b4d;
+  text-decoration: none;
+}
+aside .links .link-item:hover {
+  background-color: #c05b4d;
+  transition: 1s ease-out;
+}
+aside .links .link-item:hover a {
+  color: #fff;
+}
 #information .content .info-list {
   list-style: none;
   margin-top: 25px;
@@ -245,6 +273,9 @@ section:not(:last-child) {
   #header .heading .logo {
     font-size: 60px;
   }
+  aside {
+    display: none;
+  }
   #education .edu-list .edu-item {
     margin-top: 10px;
   }
@@ -260,6 +291,9 @@ section:not(:last-child) {
     padding: 10px 30px 0px 30px;
   }
   #header {
+    display: none;
+  }
+  aside {
     display: none;
   }
 }
