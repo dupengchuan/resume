@@ -5,7 +5,6 @@ var minifyCss = require('gulp-minify-css')
 var plugins = require('gulp-load-plugins')();
 var rename = require('gulp-rename');
 var gls = require('gulp-live-server');
-
 var server = gls.static('dist', 8000);
 
 function getData(path) {
