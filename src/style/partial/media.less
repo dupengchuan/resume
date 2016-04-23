@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+  section {
+    &:not(#header) {
+      padding: 25px;
+    }
+  }
+
+  #header {
+    .menu {
+      top: 15px;
+      right: 15px;
+    }
+
+    .heading {
+      margin-left: -130px;
+
+      .logo {
+        font-size: 60px;
+      }
+    }
+  }
+
+  aside {
+    display: none;
+  }
+
+  #education {
+    .edu-list {
+      .edu-item {
+        margin-top: 10px;
+
+        .major {
+          display: block;
+          margin-top: 10px;
+          margin-left: 20px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+
+@media print {
+  section {
+    &:not(#header) {
+      padding: 10px 30px 0px 30px;
+    }
+  }
+
+  #header {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
+}

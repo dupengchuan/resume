@@ -1,0 +1,101 @@
+{
+  "resume_title": "Yuexun Jiang - Resume",
+  "languages": "en-US",
+  "ba_id": "9e0cbea7d3319c6c94c71dfb93c151b8",
+  "logo": "Welcome",
+  "information": {
+    "name": "Yuexun Jiang",
+    "position": "Software development intern",
+    "location": "Foshan",
+    "phone": "13202824844",
+    "email": "ahonn95@outlook",
+    "blog": "http://www.ahonn.me",
+    "github": "https://github.com/ahonn"
+  },
+  "education": [{
+    "name": "Neusoft Institute, Guangdong",
+    "major": "software engineering",
+    "start": "2014",
+    "end": "2018"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "HTML / CSS",
+      "description": [
+        "Able to write semantic HTML, modular CSS, achieve more complex layout",
+        "Use a Gulp build tools and Less CSS preprocessor",
+        "Read part of the Bootstrap the source code"
+      ]
+    }, {
+      "summary": "JavaScript",
+      "description": [
+        "Familiar with JavaScript",
+        "Be able to use modular, object-oriented programming"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "PHP",
+      "description": [
+        "To be able to use the PHP build simple backend program interact with the database, apply colours to a drawing template",
+        "Understand the basic use of CodeIgniter framework"
+      ]
+    }, {
+      "summary": "Python",
+      "description": [
+        "Able to write simple crawler, data processing and other scripts"
+      ]
+    }]
+  }, {
+    "type": "other",
+    "item": [{
+      "summary": "",
+      "description": [
+        "One year experience in using Linux, familiar with the commonly used commands",
+        "To be able to use Markdown document, good technical communication skills",
+        "Daily use OS X, using the Git + Atom for development, willing to try new things"
+      ]
+    }]
+  }],
+  "experience": [{
+    "type": "personal",
+    "item":[{
+      "name": "Resume",
+      "source": "https://github.com/ahonn/resume",
+      "description": [
+        "This resume template",
+        "Read the JSON data, use Jade template engine, Less CSS preprocessor",
+        "Using Gulp generated Pages, and deploy to making Pages"
+      ],
+      "stack": ["HTML", "CSS"]
+    }, {
+      "name": "Theme-hexo-even",
+      "source": "https://github.com/ahonn/hexo-theme-even",
+      "description": [
+        "Based on the framework Hexo blog theme",
+        "Using Jade, Less, Gulp finished writing blog theme"
+      ],
+      "stack": ["HTML", "CSS"]
+    }, {
+      "name": "Zhihu-php",
+      "source": "https://github.com/ahonn/zhihu-php",
+      "description": [
+        "Based on the PHP zhihu (https://www.zhihu.com) parsing",
+        "Use simple_html_dom parse HTML",
+        "Use phpunit test"
+      ],
+      "stack": ["PHP"]
+    }, {
+      "name": "Nada",
+      "source": "https://github.com/ahonn/nada",
+      "description": [
+        "Based on the Python curses module to write command line player",
+        "Use requests module parse HTML, crawl song information, etc",
+        "Use the threading module provides multithreaded, complete play and download function"
+      ],
+      "stack": ["Python"]
+    }]
+  }]
+}

@@ -1,0 +1,16 @@
+section#information
+  div.content
+    +title('information')
+    ul.info-list
+      each info, key in information
+        li.info-item
+          - var item =  information_type[key] + ': '
+          span!= item
+          if key == 'name'
+            span.name!= info
+          else if key == 'email'
+            a(href="mailto:#{info}")!= info
+          else if key == 'blog' || key == 'github'
+            a(href="#{info}")!= info
+          else 
+            != info

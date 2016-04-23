@@ -1,0 +1,17 @@
+mixin title(section_id)
+  if languages == 'en-US'
+    h1.title
+      != section_names[section_id].en
+  else
+    h1.title
+      != section_names[section_id].zh
+    span.subtitle
+      != section_names[section_id].en
+    
+mixin nav(section_id)
+  li
+    a.list-item(href="#" + section_id)
+      if languages == 'en-US'
+        != section_names[section_id].en
+      else 
+        != section_names[section_id].zh

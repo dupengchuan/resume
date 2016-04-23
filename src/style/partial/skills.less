@@ -1,0 +1,45 @@
+#skills {
+  .skill-list {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .type {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: @theme-color;
+      font-size: 26px;
+      font-family: @theme-serif;
+      text-transform: capitalize;
+    }
+
+    .skill-item {
+      margin-bottom: 15px;
+
+      .skill-title {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-family: @theme-serif;
+
+        &::before {
+          content: "#";
+          margin-right: 5px;
+          color: @theme-color;
+          font-size: 20px;
+        }
+      }
+
+      .desc {
+        list-style: square;
+
+        .desc-item {
+          margin-left: 20px;
+          margin-bottom: 5px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

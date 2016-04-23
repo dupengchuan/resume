@@ -1,0 +1,35 @@
+aside {
+  position: fixed;
+  top: 40%;
+  right: 0;
+
+  .links {
+    list-style: none;
+
+    .link-item {
+      width: 65px;
+      padding: 5px;
+      margin-bottom: 5px;
+      line-height: 20px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #eee;
+      text-align: center;
+
+      a {
+        font-size: 16px;
+        color: @theme-color;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background-color: @theme-color;
+        transition: 1s ease-out;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

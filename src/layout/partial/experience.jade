@@ -1,0 +1,16 @@
+section#experience
+  div.content
+    +title('experience')
+    each exp in experience
+      div.experience
+        h2.type!= project_type[exp.type]
+        each project in exp.item
+          div.project
+            a.link(href="#{project.source}")
+              i.fa.fa-link
+            h2.name
+              != project.name
+            ul.desc
+              each desc in project.description
+                li.desc-item!= desc
+    
