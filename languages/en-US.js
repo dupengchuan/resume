@@ -9,12 +9,13 @@ module.exports = {
     "github": "Github"
   },
   skills_type: {
-    "language": "Language",
-	  "structs": "Structs And Tools",
+    "language": "Programing Languages",
+    "structs": "Frameworks And Tools",
     "other": "Other"
   },
   project_type: {
-    "personal": "Personal"
+    "personal": "Personal",
+    "company" : "Company project"
   },
   section_names: {
     "information": {

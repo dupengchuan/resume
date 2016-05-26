@@ -10,11 +10,12 @@ module.exports = {
   },
   skills_type: {
     "language": "掌握语言",
-	"structs": "框架工具",
+	  "structs": "框架工具",
     "other": "其他"
   },
   project_type: {
-    "personal": "项目经验"
+    "personal": "项目经验",
+    "company" : "公司项目"
   },
   section_names: {
     "information": {

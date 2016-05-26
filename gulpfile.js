@@ -55,7 +55,8 @@ gulp.task('watch', ['jade', 'less', 'static'], function() {
   gulp.watch([
     './src/layout/*.jade',
     './src/layout/**/*.jade',
-    './resume_en.json'
+    './resume_en.json',
+    './resume_zh.json'
   ], ['jade']);
   gulp.watch([
     './src/style/*.less',

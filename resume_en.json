@@ -25,7 +25,7 @@
       "description": [
         "Solid basic knowledge about JAVA",
         "Familiar with multithreaded programming",
-        "Familiar with container programming techniques,etc. List、Set、Map",
+        "Familiar with container programming techniques, List、Set、Map,etc.",
         "Good object-oriented programming habits"
       ]
     }, {
@@ -36,17 +36,20 @@
       ]
     }]
   }, {
-    "type": "backend",
+    "type": "structs",
     "item": [{
-      "summary": "PHP",
+      "summary": "Framework",
       "description": [
-        "To be able to use the PHP build simple backend program interact with the database, apply colours to a drawing template",
-        "Understand the basic use of CodeIgniter framework"
+        "Familiar with Nuts framework , familiar SpringMVC, Mybatis",
+        "Familiar with Netty framework"
       ]
     }, {
-      "summary": "Python",
+      "summary": "Tools",
       "description": [
-        "Able to write simple crawler, data processing and other scripts"
+        "Familiar with the installation and use MySql",
+        "Skilled configure Tomcat, Nginx, apache web server, etc.",
+        "Familiar with Maven and Git",
+        "Familiar Redis, memcached configuration and use"
       ]
     }]
   }, {
@@ -54,49 +57,31 @@
     "item": [{
       "summary": "",
       "description": [
-        "One year experience in using Linux, familiar with the commonly used commands",
-        "To be able to use Markdown document, good technical communication skills",
-        "Daily use OS X, using the Git + Atom for development, willing to try new things"
+        "Familiar with the Linux operating system and common commands",
+        "Familiar with Shell Scripting"
       ]
     }]
   }],
   "experience": [{
-    "type": "personal",
+    "type": "company",
     "item":[{
-      "name": "Resume",
-      "source": "",
+      "name": "Production data generation server",
+      "source" : "",
       "description": [
-        "This resume template",
-        "Read the JSON data, use Jade template engine, Less CSS preprocessor",
-        "Using Gulp generated Pages, and deploy to making Pages"
+        "Server used for generating smart appliances production data",
+        "JQuery library and Bootstrap framework are used in front-end",
+        "Using Nutz framework , receives the request, transferred to background processing thread pool"
       ],
       "stack": ["HTML", "CSS"]
     }, {
-      "name": "Theme-hexo-even",
-      "source": "https://github.com/ahonn/hexo-theme-even",
+      "name": "Smart Appliances Security Analysis Platform",
+      "source" : "",
       "description": [
-        "Based on the framework Hexo blog theme",
-        "Using Jade, Less, Gulp finished writing blog theme"
+        "The project is to collect functional smart appliances , Server, and App running log , do security analysis",
+        "Netty framework used for collecting log based on the TCP protocol",
+        "Implement a secure transmission protocol over TCP, compared to SSL, it's more customization"
       ],
       "stack": ["HTML", "CSS"]
-    }, {
-      "name": "Zhihu-php",
-      "source": "https://github.com/ahonn/zhihu-php",
-      "description": [
-        "Based on the PHP zhihu (https://www.zhihu.com) parsing",
-        "Use simple_html_dom parse HTML",
-        "Use phpunit test"
-      ],
-      "stack": ["PHP"]
-    }, {
-      "name": "Nada",
-      "source": "https://github.com/ahonn/nada",
-      "description": [
-        "Based on the Python curses module to write command line player",
-        "Use requests module parse HTML, crawl song information, etc",
-        "Use the threading module provides multithreaded, complete play and download function"
-      ],
-      "stack": ["Python"]
     }]
   }]
 }
