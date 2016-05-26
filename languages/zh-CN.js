@@ -10,7 +10,7 @@ module.exports = {
   },
   skills_type: {
     "language": "掌握语言",
-	  "structs": "框架工具",
+    "structs": "框架工具",
     "other": "其他"
   },
   project_type: {
