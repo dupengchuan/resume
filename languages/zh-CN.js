@@ -9,12 +9,12 @@ module.exports = {
     "github": "Github"
   },
   skills_type: {
-    "frontend": "Web 前端",
-    "backend": "Web 后端",
+    "language": "掌握语言",
+	"structs": "框架工具",
     "other": "其他"
   },
   project_type: {
-    "personal": "个人项目"
+    "personal": "项目经验"
   },
   section_names: {
     "information": {

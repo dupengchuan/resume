@@ -1,51 +1,55 @@
 {
-  "resume_title": "江岳勋 - 个人简历",
+  "resume_title": "杜鹏川 - 个人简历",
   "languages": "zh-CN",
   "ba_id": "9e0cbea7d3319c6c94c71dfb93c151b8",
   "logo": "Welcome",
   "information": {
-    "name": "江岳勋",
+    "name": "杜鹏川",
     "position": "软件开发实习",
-    "location": "广东佛山",
-    "phone": "13202824844",
-    "email": "ahonn95@outlook",
-    "blog": "http://www.ahonn.me",
-    "github": "https://github.com/ahonn"
+    "location": "北京",
+    "phone": "13070159371",
+    "email": "dupengchuan@live.cn",
+    "blog": "dupengchuan.me",
+    "github": "https://github.com/dupengchuan"
   },
   "education": [{
-    "name": "广东东软学院",
-    "major": "软件工程（本科）",
+    "name": "北京邮电大学",
+    "major": "计算机技术",
     "start": "2014",
-    "end": "2018"
+    "end": "2017"
   }],
   "skills": [{
-    "type": "frontend",
+    "type": "language",
     "item": [{
-      "summary": "HTML / CSS",
+      "summary": "JAVA",
       "description": [
-        "能够编写语义化的 HTML，模块化的 CSS，实现较复杂的布局",
-        "会使用 Gulp 及 Less CSS 预处理器",
-        "阅读过部分 bootstrap 源码"
-      ]
-    }, {
-      "summary": "JavaScript",
-      "description": [
-        "熟悉原生 JavaScript ，能脱离 jQuery 等类库编码",
-        "能运用模块化、面向对象的方式编程"
-      ]
-    }]
-  }, {
-    "type": "backend",
-    "item": [{
-      "summary": "PHP",
-      "description": [
-        "能够使用 PHP 搭建简单的后端程序与数据库交互，渲染模版等",
-        "了解 CodeIgniter 框架的基本使用"
+        "熟悉Java基础",
+		"熟练多线程编程，熟练使用List,Set,Map等容器",
+		"熟练Java NIO",
+        "具有良好的面向对象编程习惯"
       ]
     }, {
       "summary": "Python",
       "description": [
-        "能够编写简单的爬虫，数据处理等脚本"
+        "编写脚本进行数据库操作",
+        "编写脚本进行自动化网页测试"
+      ]
+    }]
+  }, {
+    "type": "structs",
+    "item": [{
+      "summary": "框架",
+      "description": [
+        "熟练使用Nuts框架，熟悉SpringMVC,Mybatis",
+        "熟练使用Netty框架"
+      ]
+    }, {
+      "summary": "工具",
+      "description": [
+        "熟悉MySql的安装以及使用",
+		"熟练Tomcat、Nginx、apache等web服务器的配置",
+		"熟悉Maven的使用，有Linux下打包部署项目经验，熟练使用Git",
+		"熟悉Redis，memcached的配置以及使用"
       ]
     }]
   }, {
@@ -53,49 +57,31 @@
     "item": [{
       "summary": "",
       "description": [
-        "1年 Linux 使用经验，熟悉常用命令",
-        "能够使用 Markdown 编写文档，具备良好的技术交流能力",
-        "日常使用 OS X，使用 Git + Atom 进行开发，乐于尝试新事物"
+        "熟悉Linux操作系统常用命令以及Shell脚本编写",
+        "能够使用 Markdown 编写文档，具备良好的技术交流能力"
       ]
     }]
   }],
   "experience": [{
     "type": "personal",
     "item":[{
-      "name": "Resume",
+      "name": "生产数据生成服务器",
       "source": "https://github.com/ahonn/resume",
       "description": [
-        "这份简历的模版",
-        "读取 JSON 中的数据，使用 Jade 模版引擎以及 Less",
-        "使用 Gulp 生成页面，并部署到 Github Pages"
+        "该项目核心功能是为智能家电生产烧录数据的服务器",
+		"前端使用JQuery和Bootstrap框架",
+        "服务器使用Nutz 框架，接收请求，转给后台处理线程处理"
       ],
       "stack": ["HTML", "CSS"]
     }, {
-      "name": "Theme-hexo-even",
+      "name": "智能家电安全分析平台",
       "source": "https://github.com/ahonn/hexo-theme-even",
       "description": [
-        "基于 Hexo 博客框架的博客主题",
-        "使用 Jade, Less 以及 Gulp 完成主题编写"
+        "项目核心功能是收集智能家电，Server,以及App运行日志，做安全分析",
+        "主要使用了Netty框架，基于TCP协议收集log",
+		"在TCP之上实现一个安全传输协议，相比较SSL更加定制和安全"
       ],
       "stack": ["HTML", "CSS"]
-    }, {
-      "name": "Zhihu-php",
-      "source": "https://github.com/ahonn/zhihu-php",
-      "description": [
-        "基于 PHP 的知乎网页解析",
-        "使用 simple_html_dom 解析 HTML",
-        "使用 phpunit 进行测试"
-      ],
-      "stack": ["PHP"]
-    }, {
-      "name": "Nada",
-      "source": "https://github.com/ahonn/nada",
-      "description": [
-        "基于 Python 的 curses 模块编写的落网音乐命令行播放器",
-        "使用 requests 模块解析 HTML, 爬取歌曲信息等",
-        "使用 threading 模块提供多线程，完成播放及下载功能"
-      ],
-      "stack": ["Python"]
     }]
   }]
 }

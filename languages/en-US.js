@@ -9,8 +9,8 @@ module.exports = {
     "github": "Github"
   },
   skills_type: {
-    "frontend": "Front End",
-    "backend": "Back End",
+    "language": "Language",
+	  "structs": "Structs And Tools",
     "other": "Other"
   },
   project_type: {

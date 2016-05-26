@@ -1,37 +1,38 @@
 {
-  "resume_title": "Yuexun Jiang - Resume",
+  "resume_title": "PengChuan Du - Resume",
   "languages": "en-US",
   "ba_id": "9e0cbea7d3319c6c94c71dfb93c151b8",
   "logo": "Welcome",
   "information": {
-    "name": "Yuexun Jiang",
-    "position": "Software development intern",
-    "location": "Foshan",
-    "phone": "13202824844",
-    "email": "ahonn95@outlook",
-    "blog": "http://www.ahonn.me",
-    "github": "https://github.com/ahonn"
+    "name": "PengChuan Du",
+    "position": "Software development",
+    "location": "Beijing",
+    "phone": "13070159371",
+    "email": "dupengchuan@gmail.com",
+    "blog": "http://dupengchuan.me",
+    "github": "https://github.com/dupengchuan"
   },
   "education": [{
-    "name": "Neusoft Institute, Guangdong",
-    "major": "software engineering",
-    "start": "2014",
-    "end": "2018"
+    "name": "BUPT",
+    "major": "computer technology",
+    "start": "20014",
+    "end": "2017"
   }],
   "skills": [{
-    "type": "frontend",
+    "type": "language",
     "item": [{
-      "summary": "HTML / CSS",
+      "summary": "JAVA",
       "description": [
-        "Able to write semantic HTML, modular CSS, achieve more complex layout",
-        "Use a Gulp build tools and Less CSS preprocessor",
-        "Read part of the Bootstrap the source code"
+        "Solid basic knowledge about JAVA",
+        "Familiar with multithreaded programming",
+        "Familiar with container programming techniques,etc. List、Set、Map",
+        "Good object-oriented programming habits"
       ]
     }, {
-      "summary": "JavaScript",
+      "summary": "Python",
       "description": [
-        "Familiar with JavaScript",
-        "Be able to use modular, object-oriented programming"
+        "Be able to write scripts for database operations",
+        "Be able to write scripts to automate page test"
       ]
     }]
   }, {
@@ -63,7 +64,7 @@
     "type": "personal",
     "item":[{
       "name": "Resume",
-      "source": "https://github.com/ahonn/resume",
+      "source": "",
       "description": [
         "This resume template",
         "Read the JSON data, use Jade template engine, Less CSS preprocessor",
