@@ -1,11 +1,11 @@
 {
   "resume_title": "杜鹏川 - 个人简历",
   "languages": "zh-CN",
-  "ba_id": "9e0cbea7d3319c6c94c71dfb93c151b8",
+  "ba_id": "3da6a058b90a794d9abcb126661965af",
   "logo": "Welcome",
   "information": {
     "name": "杜鹏川",
-    "position": "软件开发实习",
+    "position": "软件开发工程师",
     "location": "北京",
     "phone": "13070159371",
     "email": "dupengchuan@gmail.com",
@@ -42,7 +42,7 @@
     "item": [{
       "summary": "框架",
       "description": [
-        "熟练使用Nuts框架，熟悉SpringMVC,Mybatis",
+        "熟练使用Nutz框架，熟悉SpringMVC,Mybatis",
         "熟练使用Netty框架"
       ]
     }, {
