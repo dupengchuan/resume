@@ -1,15 +1,7 @@
 section#skills
   div.content
     +title('skills')
-    each skill in skills
-      div.skill-list
-        h2.type!= skills_type[skill.type]
-        each item in skill.item
-          div.skill-item
-            if item.summary != ""
-              h3.skill-title
-                != item.summary
-            ul.desc
-              each desc in item.description
-                li.desc-item!= desc
-          
+    div.skill-list
+      ul.desc
+        each skill in skills
+          li.desc-item!= skill

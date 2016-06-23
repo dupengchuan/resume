@@ -10,19 +10,22 @@ body, html {
 }
 
 section {
+  margin-top: 0px;
+  margin-bottom: 10px;
   &:not(#header) {
-    padding: 50px 150px;
+    padding: 5px 150px;
     text-align: center;
 
     .content {
       margin: 0 auto;
-      max-width: 750px;
+      max-width: 600px;
       text-align: left;
 
       .title {
         display: inline-block;
         font-size: @section-title-size;
         font-family: @theme-serif;
+        padding-bottom: 10px;
       }
 
       .subtitle {
@@ -30,7 +33,7 @@ section {
         top: 3px;
         margin-left: 5px;
         color: @theme-color;
-        font-size: 20px;
+        font-size: 18px;
         font-family: @theme-serif;
         font-variant: small-caps;
       }

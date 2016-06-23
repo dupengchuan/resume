@@ -1,90 +1,53 @@
 {
-  "resume_title": "杜鹏川 - 个人简历",
-  "languages": "zh-CN",
-  "ba_id": "3da6a058b90a794d9abcb126661965af",
-  "logo": "Welcome",
-  "information": {
-    "name": "杜鹏川",
-    "position": "软件开发工程师",
-    "location": "北京",
-    "phone": "13070159371",
-    "email": "dupengchuan@gmail.com",
-    "blog": "dupengchuan.me",
-    "github": "https://github.com/dupengchuan"
-  },
-
-  "education": [{
-    "name": "北京邮电大学",
-    "major": "计算机技术",
-    "start": "2014",
-    "end": "2017"
-  }],
-
-  "skills": [{
-    "type": "language",
-    "item": [{
-      "summary": "JAVA",
-      "description": [
-        "熟悉Java基础",
-		    "熟练使用多线程编程",
-        "熟练使用List,Set,Map等容器",
-        "具有良好的面向对象编程习惯"
-      ]
-    }, {
-      "summary": "Python",
-      "description": [
-        "编写脚本进行数据库操作",
-        "编写脚本进行自动化网页测试"
-      ]
-    }]
-  }, {
-    "type": "structs",
-    "item": [{
-      "summary": "框架",
-      "description": [
-        "熟练使用Nutz框架，熟悉SpringMVC,Mybatis",
-        "熟练使用Netty框架"
-      ]
-    }, {
-      "summary": "工具",
-      "description": [
-        "熟悉MySql的安装以及使用",
-		    "熟练Tomcat、Nginx、apache等web服务器的配置",
-		    "熟练使用Maven和Git",
-		    "熟悉Redis，memcached的配置以及使用"
-      ]
-    }]
-  }, {
-    "type": "other",
-    "item": [{
-      "summary": "",
-      "description": [
-        "熟悉Linux操作系统常用命令以及Shell脚本编写",
-        "熟练使用Markdown 编写文档，具备良好的技术交流能力"
-      ]
-    }]
-  }],
-
-  "experience": [{
-    "type": "company",
-    "item":[{
-      "name": "生产数据生成服务器",
-      "source": "",
-      "description": [
-        "项目为智能家电生产烧录数据的服务器",
-		    "前端使用JQuery和Bootstrap框架",
-        "服务器使用Nutz 框架，接收请求，转给后台处理线程处理"
-      ],
-      "stack": ["HTML", "CSS"]
-    }, {
-      "name": "智能家电安全分析平台",
-      "source": "",
-      "description": [
-        "项目功能是收集智能家电，Server,以及App运行日志，做安全分析",
-        "后台基于Netty框架，收集运行日志",
-		    "在TCP之上实现一个安全传输协议，保证传输层的安全性"
-      ],
-      "stack": ["HTML", "CSS"]
-    }]
-  }]
+    "resume_title": "杜鹏川 - 个人简历",
+    "languages": "zh-CN",
+    "ba_id": "3da6a058b90a794d9abcb126661965af",
+    "logo": "Welcome to kevin's resume",
+    "information": {
+        "name": "杜鹏川",
+        "position": "软件开发工程师",
+        "phone": "13070159371",
+        "email": "dupengchuan@gmail.com",
+        "blog": "dupengchuan.me"
+    },
+    "education": [
+        {
+            "name": "北京邮电大学",
+            "major": "计算机技术",
+            "start": "2014",
+            "end": "2017"
+        },
+        {
+            "name": "内蒙古科技大学",
+            "major": "计算机科学与技术",
+            "start": "2009",
+            "end": "2013"
+        }
+    ],
+    "skills": [
+        "熟练使用Java，熟悉Python",
+        "熟练使用SpringMVC,Mybatis等框架",
+        "熟悉MySQL数据库的开发及优化",
+        "熟悉Redis的配置以及使用",
+        "熟练使用Tomcat、Nginx等web服务器",
+        "熟练使用Maven和Git",
+        "熟练使用Linux系统和Shell脚本编写"
+    ],
+    "experience": [{
+     "item":[{
+       "name": "生产数据生成服务器",
+       "description": [
+         "项目为智能家电生产烧录数据的服务器",
+ 		     "前端使用JQuery库和Velocity模板引擎，后台使用Nutz框架",
+         "本人负责后台处理模块代码实现"
+       ]
+     }, {
+       "name": "智能家电安全分析平台",
+       "description": [
+         "项目为第三方安全分析平台",
+         "后台基于Netty框架收集app、家电和server的运行日志",
+ 		     "本人负责安全传输层的开发"
+       ]
+     }]
+   }]
 }

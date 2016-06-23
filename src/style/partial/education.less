@@ -1,22 +1,21 @@
 #education {
   .edu-list {
-    margin-top: 25px;
-    margin-bottom: 25px;
     list-style: none;
 
     .edu-item {
-      margin: 20px 0px;
+      margin: 10px 0px;
 
       &::before {
         content: '#';
         margin-right: 5px;
-        font-size: 22px;
+        font-size: 20px;
         color: @theme-color;
       }
 
       .name {
-        margin-right: 50px;
-        font-size: 18px;
+        font-size: @theme-font-size;
+        display: inline-table;
+        width: 180px
       }
 
       .time {
@@ -25,9 +24,9 @@
       }
 
       .major {
-        display: inline-block;
-        font-size: 18px;
-        margin-left: 50px;
+        font-size: @theme-font-size;
+        display: inline-table;
+        width: 180px
       }
     }
   }
